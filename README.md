@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# To do + drag and drop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Данное приложение на React предоставляет простой и интерактивный список задач с функцией перетаскивания для управления задачами.
+Функциональность
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Основной функционал
 
-### `npm start`
+- Добавление задач: Поле ввода позволяет пользователям легко добавлять новые задачи в список.
+- Редактирование задач: Нажмите на значок редактирования, чтобы изменить существующие задачи.
+- Отметка как выполнено: Нажатие на значок "выполнено" зачеркнет задачу, указывая на её завершение.
+- Удаление задач: Удалите задачи из списка, нажав на значок удаления.
+- Перетаскивание: Изменяйте порядок задач или перемещайте их между разделами "Активные" и "Завершенные" с помощью перетаскивания.
+- Визуальные подсказки: Приложение предоставляет визуальную обратную связь во время взаимодействия с перетаскиванием для улучшения пользовательского опыта.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Технические детали
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React.js: Приложение построено с использованием React для динамичного и компонентного подхода.
+- React Beautiful DnD: Эта библиотека обеспечивает бесшовную функциональность перетаскивания для задач.
+- Управление состоянием: Хук useState React управляет состоянием задач, включая их содержимое, статус выполнения и порядок.
+Компоненты:
+- App: Основной компонент, который отображает всё приложение.
+- InputField: Обрабатывает пользовательский ввод для добавления новых задач.
+- TodoList: Отображает список задач и управляет их состоянием.
+- SingleTodo: Представляет отдельный элемент задачи с функциями редактирования, удаления и выполнения.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Инструкции
+- Клонируйте или загрузите репозиторий.
+- Установите зависимости с помощью npm install.
+- Запустите приложение с помощью npm start.
+- Добавляйте, редактируйте, завершайте и удаляйте задачи по мере необходимости.
+- Используйте перетаскивание, чтобы изменить порядок или переместить задачи между разделами.
