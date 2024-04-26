@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-todo-dnd/static/css/main.8691ec51.css",
+    "main.js": "/react-todo-dnd/static/js/main.41990935.js",
+    "index.html": "/react-todo-dnd/index.html",
+    "main.8691ec51.css.map": "/react-todo-dnd/static/css/main.8691ec51.css.map",
+    "main.41990935.js.map": "/react-todo-dnd/static/js/main.41990935.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8691ec51.css",
+    "static/js/main.41990935.js"
+  ]
+}
