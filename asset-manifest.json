@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-todo-dnd/static/css/main.2554a9c6.css",
+    "main.css": "/react-todo-dnd/static/css/main.57237c26.css",
     "main.js": "/react-todo-dnd/static/js/main.195c225b.js",
     "index.html": "/react-todo-dnd/index.html",
-    "main.2554a9c6.css.map": "/react-todo-dnd/static/css/main.2554a9c6.css.map",
+    "main.57237c26.css.map": "/react-todo-dnd/static/css/main.57237c26.css.map",
     "main.195c225b.js.map": "/react-todo-dnd/static/js/main.195c225b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2554a9c6.css",
+    "static/css/main.57237c26.css",
     "static/js/main.195c225b.js"
   ]
 }
