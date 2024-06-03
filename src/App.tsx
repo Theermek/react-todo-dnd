@@ -32,7 +32,6 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <span className="heading">Mindbox Tasker</span>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
       <TaskManager 
         todos={todos} 
