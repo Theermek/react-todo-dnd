@@ -1,6 +1,6 @@
 {
   "homepage": "https://theermek.github.io/react-todo-dnd/",
-  "name": "taskify",
+  "name": "react-todo-dnd",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
